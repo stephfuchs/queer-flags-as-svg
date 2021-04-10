@@ -1,4 +1,3 @@
-<!-- please note: replace the color for the "fill" attribute -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8000 6000">
     <rect fill="#E30613" width="100%" height="1000" y="0" x="0"/>
     <rect fill="#F18815" width="100%" height="1000" y="1000" x="0"/>
