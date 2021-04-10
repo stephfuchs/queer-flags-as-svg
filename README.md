@@ -67,6 +67,11 @@ stripe count (on flag) | flag width (in px) | flag height (in px)
 </svg>
 ```
 
+### Boilerplate
+
+In case you want create a flag the easy way, please feel free to use the the boilerplates within the `flag-boilerplates`
+folder.
+
 ## Pride flag color overview
 
 The following tables containing all used colors (incl. their hex value) for the pride flags. Most of the are used in
