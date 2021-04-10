@@ -10,36 +10,64 @@ straight flag.
 
 ## SVG Viewbox calculation
 
-The viewbox of each flag is calculated by its stripe count. A single stripe (_for flags > 2 stripes_) has a height
-of `635px`.
-
-### SVG Viewbox width and height
-
-stripe count | flag width (in px) | flag height (in px)
---- | --- | ---
-1 | 8000 | 5080
-2 | 8000 | 5080
-3 | 3000 | 1905
-4 | 4000 | 2540
-5 | 5000 | 3175
-6 | 6000 | 3810
-7 | 7000 | 4445
-8 | 8000 | 5080
-
-### SVG Viewbox and stripe height calculation
-
-The viewbox has the setting `viewbox="0 0 flagWidth flagHeight"` which means it starts at origin `x=0.0` and `y=0.0`. To
-calculate the `flagWidth` and `flagHeight` please read the following steps.
-
-#### Calculate flag height and width
+The `viewbox` of each flag is calculated by its stripe count and the height of a stripe. In general is the height of
+each stripe set to `1000px`. The origin is always set to `x=0.0` and `y=0.0`
 
 ```text
-flagWidth = stripeCount * 1000
-flagHeight = stripCount * 635
-flagStripe = position * 635 // the first position is the last line
+viewboxHeight = stripeCount * 1000px
+viewboxWidth = viewboxHeight + 2000px
+xPosStripe = 0
+yPosStripe = viewboxHeight - 1000
+widthStripe = 100%
+heightStripe = 1000px
 ```
 
-## Flag color overview
+### Overview for calculated values for stripes
+
+Table for the `x` and `y` position of a single stripe.
+
+stripe position | x position | y position
+--- | --- | ---
+#1 | 0 | 0
+#2 | 0 | 1000
+#3 | 0 | 2000
+#4 | 0 | 3000
+#5 | 0 | 4000
+#6 | 0 | 5000
+#7 | 0 | 6000
+#8 | 0 | 7000
+#9 | 0 | 8000
+#10 | 0 | 9000
+
+Table for the flag `width` and `height` by given stripe count.
+
+stripe count (on flag) | flag width (in px) | flag height (in px)
+--- | --- | --- | 
+1 | 3000 | 1000
+2 | 4000 | 2000
+3 | 5000 | 3000
+4 | 6000 | 4000
+5 | 7000 | 5000
+6 | 8000 | 6000
+7 | 9000 | 7000
+8 | 10000 | 8000
+8 | 11000 | 9000
+8 | 12000 | 10000
+
+### Example for 5 stripes
+
+```svg
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7000 5000">
+    <rect fill="#000000" width="100%" height="1000" y="0" x="0"/>
+    <rect fill="#A9A8A8" width="100%" height="1000" y="1000" x="0"/>
+    <rect fill="#FFFFFF" width="100%" height="1000" y="2000" x="0"/>
+    <rect fill="#AACE79" width="100%" height="1000" y="3000" x="0"/>
+    <rect fill="#FFFFFF" width="100%" height="1000" y="4000" x="0"/>
+</svg>
+```
+
+## Pride flag color overview
 
 The following tables containing all used colors (incl. their hex value) for the pride flags. Most of the are used in
 other flags as well. It's an alphabetic order.
@@ -172,11 +200,11 @@ hex-value | color
 `#FFAFC8` | ![#FFAFC8](https://via.placeholder.com/50x20/FFAFC8/000000?text=+)
 `#74D7EE` | ![#74D7EE](https://via.placeholder.com/50x20/74D7EE/000000?text=+)
 
-### Other pride flags
+### special pride flags
 
 This is a list of flags which represent the queer community
 
-#### Ranbow flag (1979)
+#### Rainbow flag (1979)
 
 hex-value | color
 ---       | ---
@@ -216,7 +244,7 @@ hex-value | color
 `#2E57A4` | ![#2E57A4](https://via.placeholder.com/50x20/2E57A4/000000?text=+)
 `#6E2381` | ![#6E2381](https://via.placeholder.com/50x20/6E2381/000000?text=+)
 
-#### Ally flag
+#### Ally flag (also known as _straight allys_)
 
 hex-value | color
 ---       | ---
