@@ -1,8 +1,8 @@
-# Pride Flags (LGBTQIA+ Community) as SVG plus ally flag
-
 [![GitHub release version](https://img.shields.io/github/v/release/stephfuchs/queer-flags-as-svg?&style=for-the-badge)](https://github.com/stephfuchs/queer-flags-as-svg/releases)
 [![GitHub release date](https://img.shields.io/github/release-date/stephfuchs/queer-flags-as-svg?style=for-the-badge)](https://github.com/stephfuchs/queer-flags-as-svg/releases)
 [![GitHub license](https://img.shields.io/github/license/stephfuchs/queer-flags-as-svg?style=for-the-badge)](https://github.com/stephfuchs/queer-flags-as-svg/blob/main/LICENSE)
+
+# Pride Flags (LGBTQIA+ Community) as SVG plus ally flag
 
 This repository includes the SVG data for queer flags. As extra there will also be the (straight) ally flag.
 
