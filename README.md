@@ -6,7 +6,7 @@
 
 This repository includes the SVG data for queer flags. As extra there will also be the (straight) ally flag.
 
-![a-gender](https://github.com/stephfuchs/queer-flags-as-svg/pride-flags/a-gender.svg | width=150)
+<img src="https://github.com/stephfuchs/queer-flags-as-svg/blob/feature/update-readme/pride-flags/a-gender.svg" alt="a-gender flag" width="150px">
 
 ## SVG Viewbox calculation
 
