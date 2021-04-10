@@ -6,23 +6,23 @@
 
 This repository includes the SVG data for queer flags. As extra there will also be the (straight) ally flag.
 
-<img src="./pride-flags/a-gender.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/a-romantic.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/a-sexuality.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/bi.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/demisexual.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/gay.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/inter.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/lesbian.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/nonbinary.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/pan.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/poly-sexuality.svg" alt="queer flag preview" width="50px"> 
-<img src="./pride-flags/trans.svg" alt="queer flag preview" width="50px"> 
+<img src="./pride-flags/a-gender.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/a-romantic.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/a-sexuality.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/bi.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/demisexual.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/gay.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/inter.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/lesbian.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/nonbinary.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/pan.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/poly-sexuality.svg" alt="queer flag preview" height="50px"> 
+<img src="./pride-flags/trans.svg" alt="queer flag preview" height="50px"> 
 
-<img src="./special-flags/ally.svg" alt="queer flag preview" width="50px"> 
-<img src="./special-flags/rainbow.svg" alt="queer flag preview" width="50px"> 
-<img src="./special-flags/rainbow-philadelphia.svg" alt="queer flag preview" width="50px"> 
-<img src="./special-flags/rainbow-progress.svg" alt="queer flag preview" width="50px"> 
+<img src="./special-flags/ally.svg" alt="queer flag preview" height="50px"> 
+<img src="./special-flags/rainbow.svg" alt="queer flag preview" height="50px"> 
+<img src="./special-flags/rainbow-philadelphia.svg" alt="queer flag preview" height="50px"> 
+<img src="./special-flags/rainbow-progress.svg" alt="queer flag preview" height="50px"> 
 
 ## SVG Viewbox calculation
 
